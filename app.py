@@ -2,7 +2,7 @@ import re
 from datetime import datetime
 import json
 from flask import Flask, jsonify
-from LinearRegression import XGBoostHelper
+from XGBoost import XGBoostHelper
 app = Flask(__name__)
 
 @app.route('/hello/')
